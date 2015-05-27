@@ -1,0 +1,100 @@
+
+.header2 {
+    background-color: #0066FF;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    border-radius: 0;
+    top: 0px;
+    padding-bottom: 5px;
+}
+
+.header-glass {
+    background: url("../images/background_app.jpg") no-repeat  fixed;
+    /*opacity:0.8;*/
+    position: fixed;
+    width: 100%;
+    z-index: 60;
+    border-radius: 2px;
+    top: 70px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.content {
+    background: url("../images/background_app.jpg");
+    padding-top: 280px;
+    padding-bottom: 50px;
+}
+
+.content-prymary {
+    background:  #0066FF;
+    padding-top: 280px;
+    padding-bottom: 50px;
+}
+
+.eyeztable table, th, td {
+    border: 2px solid;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle-color {
+    height: 70px;
+    width: 70px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    box-shadow: 2px 1px 1px #0A1F33;
+    margin-bottom: 10px;
+}
+
+.circle-bridge {
+    height: 70px;
+    width: 70px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    background-color: #4D94FF;
+    border: 2px solid #0066FF;
+}
+
+.text-primary-title {
+    font-weight: 600;
+    color: #0066FF;
+    /*text-shadow: 2px 2px 4px #000000;*/
+}
+
+.text-primary {
+    color: #0066FF;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 1px #4D94FF;
+}
+
+.spacer {
+    margin-top: 15px !important;
+}
+.spacer2 {
+    margin-top: 30px !important;
+}
+.spacer3 {
+    margin-top: 50px !important;
+}
+.spacer-bottom-xs {
+    margin-bottom: 10px !important;
+}
+.spacer-bottom {
+    margin-bottom: 30px !important;
+}
+.spacer-bottom-sm {
+    margin-bottom: 15px !important;
+}
+.spacer-bottom-lg {
+    margin-bottom: 40px !important;
+}
